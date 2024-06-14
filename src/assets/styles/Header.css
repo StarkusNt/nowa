@@ -1,0 +1,33 @@
+.header-navbar {
+  width: 100%;
+  padding: 1rem;
+}
+
+.header-navbar .navbar-brand {
+  font-size: 1.5rem;
+}
+
+.header-navbar .nav-link {
+  margin-right: 1rem;
+  color: white !important;
+}
+
+.header-navbar .btn-outline-light {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease; /* Ensure smooth transition */
+}
+
+.header-navbar .btn-outline-light:hover {
+  transform: scale(1.1); /* Scale up the button on hover */
+}
+
+@media (max-width: 768px) {
+  .header-navbar .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .header-navbar .nav-link {
+    margin-right: 0.5rem;
+  }
+}

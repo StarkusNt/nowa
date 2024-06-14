@@ -1,0 +1,108 @@
+/* About.css */
+
+.about-section {
+    background: linear-gradient(135deg, #6e02af, #45a6f9);
+    padding: 50px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .about-section h1,
+  .about-section h2 {
+    font-family: 'Arial', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  
+  .intro {
+    margin-bottom: 40px;
+  }
+  
+  .intro h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .intro p {
+    font-size: 18px;
+  }
+  
+  .timeline {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .vertical-timeline-element--work .vertical-timeline-element-title,
+  .vertical-timeline-element--education .vertical-timeline-element-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .vertical-timeline-element--work .vertical-timeline-element-subtitle,
+  .vertical-timeline-element--education .vertical-timeline-element-subtitle {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .vertical-timeline-element--work p,
+  .vertical-timeline-element--education p {
+    font-size: 14px;
+  }
+  
+  .vertical-timeline-element--work .vertical-timeline-element-content {
+    background: rgba(33, 150, 243, 0.8);
+    color: #fff;
+  }
+  
+  .vertical-timeline-element--education .vertical-timeline-element-content {
+    background: rgba(233, 30, 99, 0.8);
+    color: #fff;
+  }
+  
+  .vertical-timeline-element--work .vertical-timeline-element-content-arrow {
+    border-right: 10px solid rgba(33, 150, 243, 0.8);
+  }
+  
+  .vertical-timeline-element--education .vertical-timeline-element-content-arrow {
+    border-right: 10px solid rgba(233, 30, 99, 0.8);
+  }
+  
+  .vertical-timeline-element--work .vertical-timeline-element-icon,
+  .vertical-timeline-element--education .vertical-timeline-element-icon {
+    background: #fff;
+    color: #6e02af;
+  }
+  
+  .vertical-timeline::before {
+    background: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .about-section {
+      padding: 20px 0;
+    }
+  
+    .intro h2 {
+      font-size: 20px;
+    }
+  
+    .intro p {
+      font-size: 16px;
+    }
+  
+    .vertical-timeline-element--work .vertical-timeline-element-title,
+    .vertical-timeline-element--education .vertical-timeline-element-title {
+      font-size: 18px;
+    }
+  
+    .vertical-timeline-element--work .vertical-timeline-element-subtitle,
+    .vertical-timeline-element--education .vertical-timeline-element-subtitle {
+      font-size: 14px;
+    }
+  
+    .vertical-timeline-element--work p,
+    .vertical-timeline-element--education p {
+      font-size: 12px;
+    }
+  }
+  

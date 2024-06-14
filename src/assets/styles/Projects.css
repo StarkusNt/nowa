@@ -1,0 +1,68 @@
+.projects-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+}
+
+.projects-title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.project-item {
+  width: 100%;
+  max-width: 600px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-item .card {
+  background: transparent;
+  border: none;
+  color: #fff;
+}
+
+.project-item .card-img-top {
+  display: block; /* Ustawienie zdjęcia jako elementu blokowego */
+  width: 100%; /* Pełna szerokość zdjęcia */
+  height: auto; /* Domyślna wysokość proporcjonalna */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  object-fit: cover; /* Dostosowanie zdjęcia do wymiarów kontenera */
+}
+
+.project-item .card-body {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Wyśrodkowanie w pionie */
+  align-items: center; /* Wyśrodkowanie w poziomie */
+  height: 100%; /* Pełna wysokość kontenera */
+}
+
+.project-item .card-title,
+.project-item .card-text,
+.project-item .btn {
+  color: #fff;
+  text-align: center; /* Wyśrodkowanie tekstu wewnątrz kontenera */
+}
+
+.project-item .btn {
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.project-item .btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
