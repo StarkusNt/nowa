@@ -6,9 +6,9 @@ import Projects from './components/Projects';
 import Header from './components/Header';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import CookieBanner from './components/CookieBanner'; // Poprawna ścieżka importu
+import CookieBanner from './components/CookieBanner'; 
 import { LanguageProvider } from './context/languageContext';
-import cookie from 'js-cookie'; // Importuj bibliotekę js-cookie do zarządzania plikami cookie
+import cookie from 'js-cookie';
 
 function App() {
   const [cookiesAccepted, setCookiesAccepted] = useState(false);
@@ -38,7 +38,7 @@ function App() {
           </Switch>
           <Footer />
           {!cookiesAccepted && <CookieBanner />} 
-          {/* Renderuj CookieBanner tylko jeśli pliki cookie nie są zaakceptowane */}
+          {}
         </div>
       </LanguageProvider>
     </Router>
