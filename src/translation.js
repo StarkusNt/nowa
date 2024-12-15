@@ -1,7 +1,7 @@
 const translation = {
 	en: {
 		welcome: "Welcome to my site!",
-        whoami: "About me",
+        	whoami: "About me",
 		homepage_nav: "Home page",
 		goodtoseeu: "Good to see you!",
 		myname: "I'm Krystian",
