@@ -6,7 +6,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Adjusted to move the box higher */
+    justify-content: flex-start;
     align-items: center;
     text-align: center;
     color: #fff;
@@ -20,7 +20,7 @@
   }
   
   .contact-form-wrapper {
-    background: #f8f9fa; /* Changed background color */
+    background: #f8f9fa;
     padding: 30px;
     border-radius: 8px;
     color: #333;
@@ -31,7 +31,7 @@
     flex-direction: column;
     align-items: center;
     border: 2px solid #ccc;
-    margin-top: 20px; /* Adjusted to move the box higher */
+    margin-top: 20px;
   }
   
   .contact-form {
