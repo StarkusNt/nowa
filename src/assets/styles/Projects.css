@@ -34,7 +34,7 @@
 }
 
 .project-item .card-img-top {
-  display: block; /* Ustawienie zdjęcia jako elementu blokowego */
+  display: block;
   width: 100%; /* Pełna szerokość zdjęcia */
   height: auto; /* Domyślna wysokość proporcjonalna */
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
