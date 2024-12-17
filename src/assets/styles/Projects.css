@@ -35,7 +35,7 @@
 
 .project-item .card-img-top {
   display: block;
-  width: 100%; /* Pełna szerokość zdjęcia */
+  width: 100%;
   height: auto; /* Domyślna wysokość proporcjonalna */
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   object-fit: cover; /* Dostosowanie zdjęcia do wymiarów kontenera */
