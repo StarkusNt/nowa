@@ -55,7 +55,7 @@
 .project-item .card-text,
 .project-item .btn {
   color: #fff;
-  text-align: center; /* Wyśrodkowanie tekstu wewnątrz kontenera */
+  text-align: center;
 }
 
 .project-item .btn {
