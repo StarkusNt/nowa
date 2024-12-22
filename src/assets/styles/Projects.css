@@ -38,7 +38,7 @@
   width: 100%;
   height: auto; /* Domyślna wysokość proporcjonalna */
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  object-fit: cover; /* Dostosowanie zdjęcia do wymiarów kontenera */
+  object-fit: cover;
 }
 
 .project-item .card-body {
